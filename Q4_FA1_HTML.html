@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+    <head>
+	<title>CarePet Center</title>
+    </head>
+    <body>
+	    <link rel="stylesheet" href="q4FA1Styles.css">
+        <br><br><h1>CarePet Center: Charity Fundraising Event</h1><hr><br>
+		<p>An organization that is well-suited for charitable activity in the field of national pet care is <strong>CarePet Center</strong>. Several customers may acquire medical treatment for their gorgeous pets as a result of our fundraising event!
+		Additionally, the pets can receive food and clothes that best suits their requirements. Last but not least, there will be a pet-finding event where customers can locate the pet of their dreams. All of these things can be made feasible with your assistance. Feel free to begin your transfer by logging in below:</p>
+        <form action="Q4_FA1_HTML.html" method="get">
+		    <br><br><hr><br><p style="text-align:center; font-size:20px;"><strong>LOG IN</strong></p>
+			<p><strong><label for="firstName" style="float:left">First Name:</strong></p></label><input type="text" id="firstName" required>
+			<p><strong><label for="lastName" style="float:left">Last Name:</label></strong></p><input type="text" id="lastName" required>
+			<p><strong>Select your region:</strong></p>
+                <p><input type="radio" id="male" name="sex" value="male" required>
+                <label for="male">Male</label></br>
+                <input type="radio" id="female" name="sex" value="female" required>
+                <label for="female">Female</label></br>
+                <input type="radio" id="na" name="sex" value="prefer not to say" required>
+                <label for="na">Prefer Not to Say</label></p>
+		    <p><strong><label for="email" style="float:left">Email Address:</label></strong></p><input type="text" id="email" required>
+			<p><strong><label for="contact" style="float:left">Contact Number (optional):</label></strong></p><input type="text" id="contact">
+			<br><br><br><input type="reset" value="Reset" style="float:left" class="button">
+			<input type="submit" value="Submit" id="submit" class="button" onclick="confirm()"><br><br><hr><br><br>
+	    </form>
+		<footer style="background-color:#745aa1"><br><p style="color:white; text-align:center; font-size: 20px"><strong>Thank you for visiting!</strong></p><br></footer>
+    
+	    <script>
+		    function confirm()
+			{
+				return alert("Congrats, you have finally submitted your form unless there are empty required spaces left. If so, kindly fill out the required fields.");
+			}
+		</script>
+	</body>
+</html>

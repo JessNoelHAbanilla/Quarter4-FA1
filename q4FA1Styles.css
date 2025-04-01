@@ -1,0 +1,52 @@
+body
+{
+	background-color: #f1cbdc;
+}
+
+h1 
+{
+    font-family: Arial Black;
+	text-align: center;
+	color: #745aa1;
+}
+
+p
+{
+	font-family: Arial;
+	color: #285182;
+	text-align: justify;
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
+hr
+{
+	height: 2px;
+	border-width: 0;
+	color: #285182;
+	background-color: #285182;
+	margin-left: 9em;
+	margin-right: 9em;
+}
+
+#firstName,#lastName,#email,#contact,#submit
+{
+	clear: left;
+	margin-left: 4em;
+}
+
+input[type=text]
+{
+  border: 2px solid #285182;
+  border-radius: 2px; 
+}
+
+.button
+{
+	border: solid #285182;
+	font-family: Arial;
+	padding: 7px;
+	background-color: #745aa1;
+	color: white;
+	margin-left: 41em;
+}
